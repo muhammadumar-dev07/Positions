@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positioning</title>
+    <style>
+      .wtsp-icon {
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+      }
+      .navbar {
+        height: 60px;
+        background-color: aqua;
+        position: sticky;
+        top: 10px;
+        display: flex;
+        /* Horizontal Alignment */
+        justify-content: flex-end;
+        /* Vertical Alignment */
+        align-items: flex-start;
+        z-index: 99;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-family:
+          "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        position: relative;
+        left: 10px;
+        top: 80px;
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(43, 226, 80);
+      }
+      .parent {
+        width: 100%;
+        height: 250px;
+        background-color: aquamarine;
+        margin-top: 50px;
+        position: relative;
+      }
+      .child1 {
+        width: 100px;
+        height: 100px;
+        background-color: yellowgreen;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .child2 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(109, 50, 205);
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .child3 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(205, 50, 78);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+      .child4 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(205, 182, 50);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div>Home</div>
+      <div>About</div>
+      <div>Contact Us</div>
+    </div>
+    <div class="parent">
+      <div class="child1">child 1</div>
+      <div class="child2">child2</div>
+      <div class="child3">child3</div>
+      <div class="child4">child4</div>
+    </div>
+    <h1>CSS Positioning</h1>
+    <div class="box"></div>
+    <div class="box2"></div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque optio
+      quibusdam dolorem dolores beatae cupiditate eveniet saepe quae nemo.
+      Possimus quisquam provident voluptate sapiente tempore illo voluptatum
+      nobis nesciunt! Ex. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Molestiae quibusdam sequi vel ullam voluptatem minima beatae harum
+      necessitatibus saepe labore voluptates fuga, praesentium quam deleniti
+      doloremque doloribus hic! Cum, officiis. Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Vel accusamus dolor beatae quibusdam dolores
+      suscipit. Facilis voluptate laboriosam, temporibus ipsa facere nisi
+      suscipit in, incidunt repellat pariatur assumenda quam sunt! Lorem ipsum
+      dolor sit, amet consectetur adipisicing elit. Sunt sint dolores rerum
+      cumque ullam. Nesciunt, iure vitae? Maiores commodi pariatur doloribus non
+      eius veritatis, fuga quam deserunt autem totam odit? Vero eaque provident
+      cumque nisi eos porro, quae soluta magnam, quidem, laudantium cupiditate
+      non quos ipsa ea recusandae incidunt alias consectetur dolor vitae! Porro,
+      nesciunt. Facere ratione natus asperiores consequuntur. Labore error
+      repudiandae eius natus. Quisquam iste culpa ipsa dolorem debitis non
+      officia reiciendis, ipsam alias dolore! Dignissimos, distinctio inventore
+      maxime quaerat eius, ad odit fuga laborum ex eaque cupiditate. Fuga
+      facere, hic provident porro voluptate repellendus corporis sunt soluta vel
+      voluptas tenetur aut accusamus minima ipsa ea nihil esse nam deleniti
+      perferendis maxime reiciendis error ab totam? Vero, repellendus! Tenetur
+      eos consequatur vitae culpa, maxime sed quae placeat inventore pariatur
+      nihil. Accusantium placeat tenetur dolorum vel esse architecto amet, nihil
+      nobis laborum deserunt minus at qui ab blanditiis recusandae! Distinctio
+      nulla recusandae corporis repudiandae omnis sapiente dignissimos eligendi.
+      Quibusdam quo mollitia, recusandae odit itaque eveniet. Incidunt adipisci
+      in fuga aliquam deleniti, perspiciatis libero optio harum repudiandae,
+      aspernatur quos doloremque. Nemo quae architecto earum, vitae fugit neque
+      sit? Voluptatum, enim maxime porro reiciendis numquam praesentium nam,
+      nesciunt velit unde exercitationem facilis. Adipisci, porro labore maxime
+      praesentium debitis ut facilis libero. Tempore quis doloribus rem sapiente
+      vero in itaque placeat? In temporibus, mollitia, debitis, nihil sint
+      maiores ducimus quis dignissimos accusantium hic commodi adipisci
+      distinctio perspiciatis repellat ea voluptates. Tempora, possimus.
+      Voluptates consequatur neque sint molestiae possimus ipsum rerum aperiam
+      asperiores ullam laborum illo cumque corporis, sed, labore vero porro,
+      officia iste? Enim doloremque illo rem ipsum molestias cumque dolorum
+      vitae? Hic soluta neque nesciunt ea. Est mollitia ea, quis consequatur
+      ipsam minima doloribus ipsa maiores doloremque omnis, ipsum voluptatem hic
+      qui eos. Obcaecati sed, id nobis cumque molestias vero minima! Lorem ipsum
+      dolor sit amet, consectetur adipisicing elit. Doloremque voluptates iure
+      ullam rem architecto nihil! Corrupti quod at earum. Voluptatum deserunt
+      libero expedita ullam repellat fugiat sit vitae cumque esse? At sapiente
+      unde perspiciatis, vel odio consequuntur velit aliquam ut eius asperiores
+      cumque nesciunt quasi perferendis hic numquam sit sunt, magni soluta non?
+      Error accusamus similique nesciunt in odit quis. Nostrum quisquam sapiente
+      culpa voluptatum pariatur. Eveniet fugit corrupti alias iste possimus,
+      esse vero laboriosam doloremque quo veritatis. Rem, inventore! Aliquid eum
+      molestiae repellat vitae libero quos rerum dolorum facilis! Architecto
+      molestiae earum recusandae porro aperiam nisi non iure accusamus sed
+      itaque a alias labore est sunt quia fugit provident cupiditate et culpa,
+      mollitia quaerat vel illo! Assumenda, eveniet est. Quae laudantium
+      accusantium excepturi, deserunt consequuntur repudiandae ipsum nihil sit
+      illo blanditiis sapiente minima pariatur iusto omnis eveniet amet, quo
+      rerum odio beatae hic possimus! Distinctio fuga quam provident eos.
+      Reprehenderit libero, sequi optio quam error nesciunt amet harum sunt.
+      Corrupti esse nihil quasi perferendis sed odit fugit eum ipsam et, eius
+      adipisci doloribus? Consectetur exercitationem ex nobis eum quae!
+      Molestias voluptate sit officiis neque. Tenetur officiis velit nisi et
+      placeat id odit quia hic consequatur dolor culpa quasi recusandae animi,
+      beatae porro exercitationem deserunt nesciunt officia. Itaque, magni
+      deserunt? Enim quos laboriosam repudiandae molestiae iste nostrum unde
+      ipsa, consequatur magnam veritatis assumenda, accusantium possimus
+      quisquam! Cupiditate dolores assumenda eos facilis a, sequi expedita
+      aliquid corrupti eius, ut esse itaque! Quos iste officiis reprehenderit
+      temporibus quam asperiores laudantium repudiandae optio, et, ullam quod
+      mollitia iure provident ab dolores dolor dolorum vero magnam reiciendis
+      officia. Aut, natus quae! Tempora, molestiae corrupti. Molestiae
+      laboriosam, blanditiis totam sapiente alias quo impedit excepturi veniam,
+      ducimus libero nemo tempore molestias neque, provident obcaecati fugiat ea
+      nam expedita temporibus! In optio excepturi nostrum quod? Nemo, quas! At
+      dicta quis eaque praesentium provident qui quam quibusdam omnis quaerat a
+      quae voluptatem vero deleniti, nostrum molestias animi tempore magni
+      assumenda nam voluptate totam quod dolore atque placeat. Perspiciatis?
+      Quas in dolores omnis odio, veritatis aliquam iure distinctio voluptas
+      unde recusandae maiores itaque asperiores, assumenda ex non! Repellat
+      cupiditate tenetur tempora ad veritatis molestias explicabo ducimus ipsa
+      dolores pariatur. Quisquam, dolorum omnis necessitatibus unde ducimus
+      dolore recusandae quia ad nostrum voluptates vitae esse! Quidem doloremque
+      possimus laboriosam id laudantium nesciunt quam fugiat accusamus, eveniet
+      error, nam alias fuga earum. Ullam ab sit amet id veniam perferendis
+      velit, laborum pariatur minus quaerat eaque, est excepturi assumenda ipsum
+      nisi eos. Non, tenetur! Vel, blanditiis placeat. A blanditiis natus ipsam!
+      Enim, unde! Eos quos dolor, assumenda saepe facere pariatur consequatur!
+      Harum alias soluta reprehenderit modi unde. Mollitia, maxime id sit, sunt
+      facere odit dolores officiis quia hic rem ab ducimus quis ad?
+    </p>
+    <img
+      src="./wtsplogo.png"
+      alt="WhatsApp logo"
+      width="80"
+      height="80"
+      class="wtsp-icon"
+    />
+  </body>
+</html>
